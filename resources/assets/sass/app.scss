@@ -1,0 +1,30 @@
+h1 {
+    color: skyblue;
+};
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+html,
+body {
+    -webkit-overflow-scrolling: touch !important;
+}
+html {
+    width: 100%;
+    min-height: 100%;
+    overflow-y: auto !important;
+}
+body {
+    zoom: 70%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100% !important;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
